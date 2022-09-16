@@ -2,6 +2,8 @@ import express from 'express'
 import connectDB from './mongoDB.js'
 import * as dotenv from 'dotenv'
 import { daos,apiProductos,apiCarrito } from '../daos/index.js'
+import { ContenedorFirebase } from '../contenedores/contenedorFirebase.cjs'
+
 
 dotenv.config()
 
